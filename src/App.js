@@ -1,6 +1,4 @@
 import {Users} from "./components/Users/Users";
-
-
 function App() {
   return (
     <div>
@@ -8,5 +6,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
