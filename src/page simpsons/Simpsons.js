@@ -1,9 +1,8 @@
+import Simpson from "./Simpson";
 import {simpsons} from "./arr Simpsons";
-import {Simpson} from "./Simpson";
 
-
-export function Simpsons() {
-  return (<div>
-      {simpsons.map((value,index) =><Simpson key={index} simpson={value}/>)}
+export default function Simpsons() {
+    return (<div>
+        {simpsons.map((simpson, index)  => <Simpson kay={index} simpson={simpson}  />)}
     </div>);
 }

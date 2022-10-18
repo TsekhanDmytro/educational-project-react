@@ -1,10 +1,9 @@
-import {Simpsons} from "./page simpsons/Simpsons";
-
+import Simpsons from "./page simpsons/Simpsons";
 
 function App() {
   return (
     <div className="App">
-<Simpsons/>
+      {<Simpsons/>}
     </div>
   );
 }

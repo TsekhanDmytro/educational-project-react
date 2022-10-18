@@ -1,10 +1,9 @@
-
-export function Simpson(props) {
-let {simpson}= props;
-  return (<div>
- <h2>{simpson.name} {simpson.surname}</h2>
-      <p>Age: {simpson.age}</p>
-      <p>About me: {simpson.info} </p>
-      <img src= {simpson.photo} alt={simpson.name}/>
+export default function Simpson({simpson}) {
+    return (<div>
+        <h3>{simpson.name} {simpson.surname} Age-{simpson.age} years</h3>
+        <img className="fit-picture"
+             src={simpson.photo}
+             alt={simpson.name}/>
+        <p>{simpson.info}</p>
     </div>);
 }
