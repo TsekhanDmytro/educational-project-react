@@ -1,5 +1,5 @@
 export default function UserInfo() {
-  return (<div>
-     UserInfo
+    return (<div>
+        UserInfo
     </div>);
 }
